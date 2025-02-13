@@ -16,7 +16,7 @@ public:
 // Base class for person-related information
 class Person {
 protected:
-    string name, memberID, contact;
+    string name, memberID, contact,email;
 public:
     // Constructor to initialize person details
     Person(string n, string id, string c) : name(n), memberID(id), contact(c) {}
