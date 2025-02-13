@@ -198,9 +198,9 @@ void showMenu(Library& library) {
             }
             case 2: {
                 string name, id, contact;
-                cout << "Enter name: "; getline(cin, name);
+                cout << "Enter Name: "; getline(cin, name);
                 cout << "Enter ID: "; getline(cin, id);
-                cout << "Enter contact: "; getline(cin, contact);
+                cout << "Enter Contact: "; getline(cin, contact);
                 library.addMember(Member(name, id, contact));
                 break;
             }
