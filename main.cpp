@@ -52,7 +52,6 @@ public:
         return Person::displayDetails();
     }
 };
-
 // Class representing a book
 class Book : public LibraryEntity {
 private:
@@ -118,7 +117,6 @@ public:
     void displayMembers() const {
         for (const auto& member : members) cout << member.displayDetails() << endl;
     }
-
     // Borrow a book
     void borrowBook(const string& memberId, const string& title) {
         auto memberIt = find_if(members.begin(), members.end(), [&](const Member& m) { return m.getMemberID() == memberId; });
