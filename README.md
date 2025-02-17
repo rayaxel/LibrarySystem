@@ -46,7 +46,7 @@ The system uses two CSV files for data persistence:
 4. Display Members: View all registered members
 5. Borrow Book: Process a book borrowing
 6. Return Book: Process a book return
-7. Exit: Close the application
+
 
 ## Data Format
 ### Books
