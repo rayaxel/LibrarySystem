@@ -6,7 +6,7 @@
 #include <algorithm>
 using namespace std;
 
-// Abstract class representing a library entity
+// Abstract class representing a library entity.
 class LibraryEntity {
 public:
     virtual void addEntity() = 0;
@@ -30,7 +30,7 @@ public:
     string getMemberID() const { return memberID; }
 };
 
-// Derived class representing a library member
+// Derived class representing a library member.
 class Member : public Person {
 private:
     vector<string> borrowedBooks; // Stores borrowed books
@@ -70,7 +70,7 @@ public:
     // Borrowing method
     void borrow() { isAvailable = false; }
 
-    // Returning method
+    // Returning method.
     void returnBook() { isAvailable = true; }
 
     // Method to display book details
