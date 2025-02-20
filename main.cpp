@@ -79,9 +79,9 @@ public:
     }
 
     // Getters and setters
-    string getTitle() const { return title; }
-    bool isBookAvailable() const { return isAvailable; }
-    void setAvailability(bool status) { isAvailable = status; }
+    string getTitle() const { return title; } //a getter for returning the private title
+    bool isBookAvailable() const { return isAvailable; } //a getter for return availability of the book
+    void setAvailability(bool status) { isAvailable = status; } //a setter for modifying the private attribute
 };
 
 // Library class with file handling capabilities
