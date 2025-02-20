@@ -23,11 +23,6 @@ The system uses two CSV files for data persistence:
 - `books.csv`: Stores book information (title, author, ISBN, year)
 - `members.csv`: Stores member information (name, ID, contact)
 
-## Requirements
-- C++ compiler with C++11 support
-- Standard Template Library (STL)
-- File system access for data persistence
-
 ## How to Use
 1. Compile the program using a C++ compiler
 2. Run the executable
@@ -63,13 +58,6 @@ Members are stored with the following information:
 - Member ID
 - Contact Information
 - List of borrowed books
-
-## Implementation Notes
-- The system uses virtual functions for polymorphic behavior
-- STL containers (vector) are used for data management
-- File I/O operations handle data persistence
-- Exception handling is implemented for file operations
-- Lambda functions are used for searching operations
 
 ## Limitations
 - Command-line interface only
